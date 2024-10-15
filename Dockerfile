@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Step 6: Define environment variable
-ENV TELEGRAM_BOT_TOKEN=""
+# ENV TELEGRAM_BOT_TOKEN=""
 
 # Step 7: Run app.py when the container launches
 CMD ["python", "bot.py"]

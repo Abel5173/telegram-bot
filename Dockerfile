@@ -17,5 +17,5 @@ EXPOSE 80
 # ENV TELEGRAM_BOT_TOKEN=""
 
 # Step 7: Run app.py when the container launches
-CMD ["python", "bot.py"]
+CMD ["python", "main.py"]
 
